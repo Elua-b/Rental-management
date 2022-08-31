@@ -1,0 +1,31 @@
+const mongoose = require("mongoose");
+
+var schema = new mongoose.Schema(
+  {
+    names: {
+      type: String,
+      required: true,
+    },
+    amount_paid: {
+      type: String,
+      required: true,
+    },
+    dateOf_payment: {
+      type: String,
+      required: true,
+    },
+    house_type: {
+      type: String,
+      required: true,
+    },
+    location: {
+        type: String,
+        required: true,
+      },
+  },
+  { timestamps: true }
+);
+
+const Userdb = mongoose.model("userdb", schema);
+
+module.exports = Userdb;
