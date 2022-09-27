@@ -1,21 +1,92 @@
 .firstWc{
     width: 100%;
-    background-color: #fff;
+    height: 96vh;
+    /* padding: 2em; */
+    background-color: ghostwhite;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
 }
+.f-head{
+    margin-left: 40px;
+    margin-top: -10px;
+}
 .wlk{
     color: #000;
-    font-size: 20px;
+    font-size: 25px;
 
 }
 .rtl{
     color: #1EC08A;
-    font: 20px;
+    font-size: 20px;
 }
 .wrd{
     opacity: 0.5;
     color: #000;
+}
+.f-middle{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    width: 70%;
+    /* background-color: #1EC08A; */
+    padding: 10px;
+    /* padding-right: 60px; */
+    
+
+}
+.f-middle:hover{
+    border: 1px solid #1EC08A;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.f-profile{
+   display: flex;
+   align-items: center;
+   justify-content: space-around;
+}
+.tick{
+    width: 100%;
+    height: 100%;
+}
+.img{
+    width: 25%;
+    height: 20%;
+    border-radius: 50%;
+    
+}
+.verify{
+    width: 13%;
+    height: 60%;
+    border-radius: 50%;
+    /* background-color:red; */
+    border: 1px solid #1EC08A;
+    padding-top: 5px;
+    padding-left: 6px;
+}
+.f-word{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.f-bottom{
+    margin-top: 30px;
+}
+.f-middle,.f-middle,.f-bottom{
+    padding-top: 20px;
+}
+h5{
+    opacity: 0.7;
+    
+}
+.fbtm{
+    opacity: 0.7;
+}
+.log{
+    color: #1EC08A;
+}
+.log:hover{
+    cursor: pointer;
+    border-bottom:1px #1EC08A solid;
 }
