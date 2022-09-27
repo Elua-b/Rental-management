@@ -1,0 +1,21 @@
+.firstWc{
+    width: 100%;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.wlk{
+    color: #000;
+    font-size: 20px;
+
+}
+.rtl{
+    color: #1EC08A;
+    font: 20px;
+}
+.wrd{
+    opacity: 0.5;
+    color: #000;
+}
