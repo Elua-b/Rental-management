@@ -1,0 +1,51 @@
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  /* background-color: green; */
+  width: 100%;
+}
+h2 {
+  font-size: 15px;
+  color: #1ec08a;
+}
+.input-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding: 10px;
+}
+.input {
+}
+label {
+  font-size: 15px;
+  color: #000;
+}
+label,
+input {
+  padding-top: 20px;
+  padding: 15px;
+  width: 70%;
+  border-radius: 5px;
+ 
+}
+.sign{
+    color: #1ec08a;
+    font-size: 14px;
+}
+
+.input{
+    border: 1px solid #1ec08a;
+}
+.form-btn{
+    padding: 10px;
+    background-color: #1ec08a;
+    color: white;
+    width: 60%;
+    margin-top: 15px;
+    border: none;
+    border-radius: 5px;
+}
