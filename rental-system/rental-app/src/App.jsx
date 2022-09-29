@@ -5,6 +5,8 @@ import './App.css'
 
 import WelcomeScreen from './screens/welcome/WelcomeScreen'
 import SignupScreen from './screens/form/SignupScreen'
+import Login from './components/login/Login'
+import LoginScreen from './screens/form/LoginScreen'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -14,7 +16,10 @@ function App() {
      {/* <FirstWc/> */}
      {/* <SecondWc/> */}
      {/* <WelcomeScreen/> */}
-     <SignupScreen/>
+     {/* <SignupScreen/> */}
+     {/* <Login/> */}
+     <LoginScreen/>
+     
     </div>
   )
 }
