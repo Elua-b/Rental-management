@@ -7,6 +7,9 @@ import WelcomeScreen from './screens/welcome/WelcomeScreen'
 import SignupScreen from './screens/form/SignupScreen'
 import Login from './components/login/Login'
 import LoginScreen from './screens/form/LoginScreen'
+import SideBar from './components/sideBar/SideBar'
+import Statistics from './components/Dashbord/statistics/Statistics'
+import Tenants from './components/Dashbord/tenants/Tenants'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -18,7 +21,10 @@ function App() {
      {/* <WelcomeScreen/> */}
      {/* <SignupScreen/> */}
      {/* <Login/> */}
-     <LoginScreen/>
+     {/* <LoginScreen/> */}
+     {/* <SideBar/> */}
+     <Statistics/>
+     <Tenants/>
      
     </div>
   )

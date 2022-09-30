@@ -1,0 +1,44 @@
+.statistics{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* background: gainsboro; */
+    width: 36%;
+    position: relative;
+    left: 31%;
+    padding: 30px;
+
+}
+.stat-card{
+/* width: 100%; */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+background-color: white;
+padding-left: 30px;
+padding: 20px;
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+border-radius: 5px;
+}
+.st-top{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.st-name{
+    font-size: 14px;
+}
+.period{
+    color: grey;
+    font-size: 10px;
+}
+.st-price{
+    font-size: 14px;
+}
+.st-bottom{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
