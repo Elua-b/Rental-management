@@ -24,6 +24,10 @@ border-radius: 5px;
 width: 50%;
 
 }
+.stat-card:hover{
+    background-color:rgb(229, 243, 240) ;
+}
+
 .st-top{
     display: flex;
     align-items: center;
