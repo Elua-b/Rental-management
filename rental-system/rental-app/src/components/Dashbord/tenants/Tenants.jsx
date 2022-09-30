@@ -4,14 +4,15 @@ import tenants from '../../Data/tenantData'
 function Tenants() {
   return (
     <div>
-        <div className='t-top'>
-        <h3>TOP TENANTS </h3>
-        <h5>See All 14</h5>
-
-        </div>
+       
      
 
 <table id="customers">
+<div className='t-top'>
+        <h3 style={{fontSize:"14px"}}>TOP TENANTS </h3>
+        <h5 style={{color:"green"}}>See All 14</h5>
+
+        </div>
   <tr>
     <th>Names</th>
     <th>Property Category</th>
@@ -25,7 +26,7 @@ tenants.map((tenant)=>{
             <td>{tenant.names}</td>
             <td>{tenant.propertyCategory}</td>
             <td>{tenant.propertyLocation}</td>
-            <td>{tenant.status}</td>
+            <td className='status'>{tenant.status}</td>
         </tr>
     )
 })

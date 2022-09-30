@@ -3,9 +3,9 @@
     align-items: center;
     justify-content: space-between;
     /* background: gainsboro; */
-    width: 36%;
+    width: 70%;
     position: relative;
-    left: 31%;
+    left: 13%;
     padding: 30px;
 
 }
@@ -16,10 +16,13 @@ flex-direction: column;
 justify-content: center;
 align-items: center;
 background-color: white;
-padding-left: 30px;
-padding: 20px;
+/* padding-left: 50px; */
+/* padding: 20px; */
+margin: 0 1rem;
 box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 border-radius: 5px;
+width: 50%;
+
 }
 .st-top{
     display: flex;
